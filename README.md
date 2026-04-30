@@ -6,6 +6,44 @@ Power Planner delivers a familiar Kanban board experience — plans, buckets, ta
 
 ---
 
+## Running Locally
+
+Power Planner includes a local development mode with pre-loaded mock data so you can explore the full interface without a Power Platform environment.
+
+### Prerequisites
+
+- [Node.js 18+](https://nodejs.org/) (LTS recommended)
+- npm (included with Node.js)
+
+### Steps
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/<your-org>/power-planner.git
+cd power-planner
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser. The app loads automatically with a **Demo Plan** containing sample buckets and tasks — no Dataverse connection required.
+
+> The mock data executor is active only when `import.meta.env.DEV` is `true`. It is not included in production builds.
+
+### What You'll See
+
+| Area | Description |
+|---|---|
+| **Board View** | Demo Plan with To Do / In Progress / Done buckets and sample tasks |
+| **List View** | Same tasks in tabular form with sortable columns |
+| **Task Detail** | Click any task card to open the detail panel with checklist and comments |
+| **Create Plan** | Use the sidebar to create additional demo plans |
+
+---
+
 ## Why Power Planner?
 
 ### Microsoft Project Online Is Retiring — September 30, 2026

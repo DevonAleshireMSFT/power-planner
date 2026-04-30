@@ -13,9 +13,9 @@ Power Planner delivers a Planner-style Kanban experience — boards, buckets, ta
 
 ---
 
-## Problem Statement
+## Transitioning from Project Online
 
-### Microsoft Project Online Is Retiring
+### Microsoft Project Online Retirement Timeline
 
 Microsoft has announced the official retirement of **Project Online on September 30, 2026**. Key dates:
 
@@ -27,21 +27,19 @@ Microsoft has announced the official retirement of **Project Online on September
 
 After the retirement date, organizations will lose access to all Project Online projects and associated data. Microsoft recommends transitioning before that date.
 
-### Microsoft's Recommended Transition Paths — and Their Tradeoffs
+### Microsoft's Recommended Transition Paths
 
-Microsoft offers three primary alternatives:
+Microsoft offers three primary alternatives, each designed for a specific set of organizational needs:
 
-| Option | Best For | Tradeoff |
+| Option | Best For | When to Choose |
 |---|---|---|
-| **Planner (Premium)** | Teams needing Gantt, dependencies, portfolio views | Requires Planner Plan 3 or Plan 5 licensing; limited customization |
-| **Project Server Subscription Edition** | Organizations needing advanced PPM or near-parity with Project Online | On-premises infrastructure required; significant deployment and licensing cost |
-| **Dynamics 365 Project Operations** | Professional services with timesheet and resource scheduling needs | Full ERP-weight solution — expensive and complex for general task management |
+| **Planner (Premium)** | Teams needing Gantt charts, task dependencies, and portfolio views | Organizations that need advanced scheduling and reporting across multiple projects |
+| **Project Server Subscription Edition** | Organizations requiring advanced portfolio and program management with on-premises control | IT-mature organizations with existing infrastructure and deep PPM requirements |
+| **Dynamics 365 Project Operations** | Professional services firms with timesheet, resource scheduling, and billing needs | Organizations running end-to-end project financials alongside delivery management |
 
-For many organizations — especially those whose teams used Project Online primarily for **task tracking, board-style work management, and light project coordination** — none of these paths is the right fit. They are either over-engineered, over-priced, or introduce new infrastructure dependencies.
+### Where Power Planner Fits
 
-### The Gap
-
-Organizations need a task management tool that looks familiar, lives inside their existing Microsoft environment, is extensible to their specific workflows, and does not require new licensing or new vendor relationships. That is what Power Planner is designed to be.
+For many organizations — especially those whose teams used Project Online primarily for **task tracking, board-style work management, and light project coordination** — Power Planner offers a focused, lightweight alternative that lives inside their existing Power Platform environment. It requires no new vendor relationships, no new infrastructure, and no licensing beyond existing Power Apps entitlements.
 
 ---
 

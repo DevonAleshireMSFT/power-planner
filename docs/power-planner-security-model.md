@@ -52,7 +52,7 @@ Power Planner runs on any Power Platform cloud tier without modification. The Da
 | GCC High | `*.crm.microsoftdynamics.us` | `login.microsoftonline.us` | IL4, IL5 | ⏳ Pending rollout |
 | DoD | `*.crm.appsplatform.us` | `login.microsoftonline.us` | IL4, IL5 | ✅ |
 
-> **GCC High note (as of April 2026):** Power Apps Code Apps has not yet been deployed to GCC High. The `pac code push` CLI command routes to the commercial Power Platform API (`api.powerplatform.com`) rather than the GCC High equivalent (`high.api.powerplatform.us`), resulting in an authentication failure. Monitor the [Power Platform GCC High feature availability page](https://learn.microsoft.com/en-us/power-platform/admin/united-states-government) for rollout status. DoD organizations can deploy via the DoD Power Platform environment.
+> **GCC High note (as of April 2026):** Power Apps Code Apps has not yet been deployed to GCC High. Monitor the [Power Platform GCC High feature availability page](https://learn.microsoft.com/en-us/power-platform/admin/united-states-government) for rollout status. DoD organizations can deploy via the DoD Power Platform environment, which has full Code Apps support.
 
 ---
 
