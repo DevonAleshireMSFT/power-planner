@@ -72,15 +72,11 @@ Power Planner is built on Microsoft Power Platform and Dataverse. The following 
 
 ## Interface
 
-<!-- Screenshot: Add a screenshot of the Board View here to give readers a visual sense of the interface. -->
-<!-- Suggested path: docs/screenshots/board-view.png -->
-<!-- Markdown syntax: ![Power Planner Board View](docs/screenshots/board-view.png) -->
+### Board View
+![Power Planner Board View](/docs/screenshots/board-view.png)
 
-> **To add a screenshot:** Capture the application running in your browser, save it to `docs/screenshots/board-view.png`, and replace the comment above with:
-> ```markdown
-> ![Power Planner Board View](/docs/screenshots/board-view.png)
-> ```
-> Additional recommended screenshots: List View (`list-view.png`), Task Detail Panel (`task-detail.png`).
+### List View
+![Power Planner List View](docs\screenshots\list-view.png)
 
 ---
 
