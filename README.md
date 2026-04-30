@@ -76,7 +76,7 @@ Power Planner is built on Microsoft Power Platform and Dataverse. The following 
 ![Power Planner Board View](/docs/screenshots/board-view.png)
 
 ### List View
-![Power Planner List View](docs\screenshots\list-view.png)
+![Power Planner List View](/docs/screenshots/list-view.png)
 
 ---
 
