@@ -1,0 +1,7 @@
+{
+  "name": "Power Planner",
+  "description": "Lightweight Planner replacement",
+  "buildPath": "dist",
+  "fileEntryPoint": "index.html",
+  "environmentId": "<your-dataverse-environment-id>"
+}

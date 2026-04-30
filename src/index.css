@@ -1,0 +1,5 @@
+/* index.css — minimal base reset; theming lives in App.css */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { height: 100%; }
+body { line-height: 1.5; -webkit-font-smoothing: antialiased; }
+
